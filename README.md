@@ -15,8 +15,8 @@ __* To achieve a higher computational efficiency, we rewrite the entire package 
 ## Install
 
 ```
-install.packages('devtools')
-devtools::install_github('shadowdeng1994/TarCA.pro')
+install.packages("pak")
+pak::pak("shadowdeng1994/TarCA.pro")
 ```
 Installation would finish in about one minute. 
 
