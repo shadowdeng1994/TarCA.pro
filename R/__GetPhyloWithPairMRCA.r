@@ -6,6 +6,11 @@
 #'
 #' @importFrom ape as.phylo
 #' @importFrom castor get_pairwise_mrcas
+#' @importFrom dplyr %>% arrange bind_rows filter group_by left_join min_rank mutate n rename right_join select summarise
+#' @importFrom ggtree ggtree
+#' @importFrom stats na.omit p.adjust pchisq
+#' @importFrom tibble as_tibble column_to_rownames remove_rownames rownames_to_column
+#' @importFrom tidyr gather replace_na separate
 #'
 #' @examples
 #' library(dplyr)
